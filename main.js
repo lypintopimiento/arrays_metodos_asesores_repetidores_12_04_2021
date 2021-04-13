@@ -12,11 +12,14 @@ let i = 1;
     i++
         }
 //const datos = [1,2,3,4,5,6,7,8];
+console.warn('Agragar datos con unshift');
 console.log(datos.unshift(9, 10));
 console.log(datos);
+console.warn('Eliminar dato con shift');
 const eliminar = datos.shift();
 console.log(datos);
 console.log(eliminar);
+
 
 
 
