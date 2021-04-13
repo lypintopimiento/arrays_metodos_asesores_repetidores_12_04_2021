@@ -11,8 +11,8 @@ let i = 1;
    datos.push(prompt(`Ingrese el dato - ${i}`));
     i++
         }
-//const datos = [3, 4, 5,6,7,8,9,10];
-console.log(datos.unshift(1, 2));
+//const datos = [1,2,3,4,5,6,7,8];
+console.log(datos.unshift(9, 10));
 console.log(datos);
 const eliminar = datos.shift();
 console.log(datos);
